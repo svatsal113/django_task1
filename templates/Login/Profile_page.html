@@ -1,0 +1,15 @@
+{% extends 'HomePage.html' %}
+
+
+{% block body %}
+<br>
+<div class="container">
+    <h2>Profile Page</h2>
+    <br>
+    <p>Username : {{ user.username }}</p>
+    <p>Email : {{ user.email}}</p>
+    <p><a href="http://127.0.0.1:8000/login/logout">Logout</a></p>
+
+
+</div>
+{% endblock %}
